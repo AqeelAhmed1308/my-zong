@@ -1,0 +1,402 @@
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* Align all items to the left */
+    padding: 10px 20px;
+    /* Add padding for spacing */
+    background-color: #f8f9fa;
+    /* Light background color */
+    border-bottom: 1px solid #ddd;
+    /* Optional bottom border */
+}
+
+/* Add spacing between items */
+.navbar>* {
+    margin-right: 20px;
+    /* Space between each item */
+}
+
+/* Menu Icon */
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Search Icon */
+.search-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-icon i {
+    color: #61c423;
+    /* Optional icon color */
+}
+
+/* User Icon */
+.user-icon img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    /* Makes the user icon round */
+}
+
+/* Logo Section */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Space between logo images */
+}
+
+.logo img {
+    height: 40px;
+    /* Adjust the size of the logos */
+}
+
+.logo .china-mobile {
+    height: 30px;
+    /* Adjust the size for the second logo */
+}
+
+/* section 2 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.icon-nav {
+    height: 80px;
+    /* Increased height to accommodate vertical layout */
+    padding: 0 20px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    cursor: pointer;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 5px;
+    /* Add space between image and text */
+}
+
+.icon p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.bundle-section {
+    display: flex;
+    padding: 40px 20px;
+    gap: 40px;
+    height: 80vh;
+    background-color: #f8f9fa;
+}
+
+.fixed-section {
+    width: 30%;
+    padding-top: 20px;
+}
+
+.green-title {
+    color: #8DC63F;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.navigation-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.nav-btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.view-all {
+    background: #E6007E;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Card Styling */
+#carouselExampleControls {
+    width: 70% !important;
+    height: 400px;
+}
+
+.carousel-inner {
+    height: 100%;
+    padding: 20px 0;
+}
+
+.carousel-item {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+}
+
+/* Update card styling */
+.card {
+    height: 300px;
+    width: calc(50% - 10px) !important;
+    /* Exactly half width minus gap */
+    margin: 0;
+    padding: 25px;
+    flex: 0 0 auto;
+    /* Prevent card from stretching */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: #b1b2b3 0 0 10px;
+    /* Add shadow effect */
+}
+.card-bold{
+    height: 300px;
+    width: calc(50% - 10px) !important;
+    /* Exactly half width minus gap */
+    margin: 0;
+    padding: 25px;
+    flex: 0 0 auto;
+    /* Prevent card from stretching */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Add shadow effect */
+}
+.card-bold2{
+    height: 300px;
+    width: calc(50% - 10px) !important;
+    /* Exactly half width minus gap */
+    margin: 0;
+    padding: 25px;
+    margin-left: 100px;
+    flex: 0 0 auto;
+    /* Prevent card from stretching */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Add shadow effect */
+}
+/* Adjust internal card spacing */
+.card-body {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.package-type {
+    color: #E6007E;
+}
+
+.package-name {
+    color: rgb(55, 55, 55);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.bold-name {
+    color:#8DC63F ;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.value {
+    color: #8DC63F;
+}
+
+.features {
+    margin: 30px 0;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    margin: 20px 0;
+}
+
+/* Ensure proper sliding behavior */
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: flex;
+}
+
+/* Hide overflow for smooth transitions */
+.carousel {
+    overflow: hidden;
+}
+
+/* section 3 */
+
+.bolt-section {
+    display: flex;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    min-height: 80vh;
+}
+
+.bolt-image {
+    width: 50% ;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.bolt-image img {
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1));
+}
+
+.read-more {
+    background: #E6007E;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background: #d1006f;
+}
+
+.disclaimer-banner {
+    background-color: #000;
+    color: white;
+    padding: 8px 0;
+    font-size: 14px;
+    width: 100%;
+   
+    z-index: 1000;
+}
+
+marquee {
+    width: 100%;
+}
+
+/* Adjust the spacing for content below the banner */
+body {
+    padding-top: 36px; /* Height of banner + some padding */
+}
+/* footer */
+.main-footer {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reach-us-section {
+    margin-bottom: 40px;
+}
+
+.reach-us-section h2 {
+    color: #666;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.links-row a {
+    color: #7b7b7b;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .links-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
